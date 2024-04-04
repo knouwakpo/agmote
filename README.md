@@ -72,6 +72,7 @@ $ pip3 install python-periphery
 
 # Setup the crontab
 
-# Copy the rest of the files inside RFM69_gateway_apps to ~/.apps
+# Copy all the scripts (".sh" and ".py") to ~/.apps
+# Ensure the ~/Flume folder exists
 
 # Make sure I2C and SPI are enabled on the pi
