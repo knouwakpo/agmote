@@ -21,23 +21,26 @@ $ sudo apt upgrade
 ```
 For the OLED to work properly, follow instructions in the README.md inside libssd1306
 #### Key steps
-
+```
 $ sudo apt -y install libfreetype6-dev fonts-freefont-ttf ttf-bitstream-vera \
         autoconf automake libtool autotools-dev build-essential pkg-config
- 
+``` 
 ### optional pre-requisites
+```
 $ sudo apt -y install libev-dev libunistring-dev
-
+```
 ### optional Microsoft Fonts installer, if you want it
+```
 $ sudo apt -y install ttf-mscorefonts-installer
-
+```
 
 ## Compile and install libssd1306.
 
 Make sure to run
 
+```
 $ sudo make install
-
+```
 at the end to ensure that RFM69App can successfuly compile
 
 
@@ -45,15 +48,15 @@ at the end to ensure that RFM69App can successfuly compile
 This is usually not necessary since the rfm69app executable is already available in the RFM69App/build directory
 
 Make the apps and Flume directories on the Pi home
-
+```
 $ mkdir .apps
 $ mkdir Flume
-
+```
 ## Copy the rfm69app executable to ~/.apps
-
+```
 $ cp rfm69app ~/.apps/rfm69app
 $ chmod +x ~/.apps/rfm69app
-
+```
 
 # For the Blues Wireless notecard communication
 
@@ -61,10 +64,10 @@ Communication with the notecard is done using python
 
 
 ## Pre-requisites
-
+```
 $ pip3 install note-python
 $ pip3 install python-periphery
-
+```
 
 
 # Setup the crontab
