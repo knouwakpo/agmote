@@ -7,12 +7,12 @@ import notecard
 from periphery import I2C
 import sys
 
-sys.path.append('/home/roccflume/.apps')
+sys.path.append('PATH-TO-THIS-FOLDER')
 import sync_date_module as sync_date
 
 
 
-productUID = "gov.usda.kossi.nouwakpo:wireless_rocc"
+productUID = "YOUR-PRODUCTID"
 port = I2C("/dev/i2c-1")
 card = notecard.OpenI2C(port, 0, 0)
 
