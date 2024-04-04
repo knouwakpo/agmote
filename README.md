@@ -15,10 +15,10 @@ The RFM69App makes heavy use of the pigpio library.
 
 ## Pre-requisite:
 Ensure the Raspberry Pi is up-to-date
-'''
+```
 $ sudo apt update
 $ sudo apt upgrade
-'''
+```
 For the OLED to work properly, follow instructions in the README.md inside libssd1306
 #### Key steps
 
