@@ -1,3 +1,6 @@
+# Module to sync notecard to notehub and sync date on the raspberry pi host computer
+
+
 import time
 import datetime
 import os
