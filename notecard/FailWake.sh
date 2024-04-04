@@ -1,5 +1,8 @@
 #!/usr/bin/bash
 
+#Regularly check changes on the "radiodata.txt" file to ensure that it updates with new data
+#Reboots if no update has occured in 30min. This indicates that the host radio may have stalled.
+
 rebootflag="/home/roccflume/.apps/REBOOTED"
 if [ -f $rebootflag ]; then
 	echo 'Rebooted at '$(date) >> /home/roccflume/rebootlog.txt
