@@ -79,7 +79,7 @@ from periphery import I2C
 import threading
 import sys
 
-productUID = "gov.usda.kossi.nouwakpo:wireless_rocc"
+productUID = "YOUR-PRODUCTID"
 port = I2C("/dev/i2c-1")
 card = notecard.OpenI2C(port, 0, 0)
 
